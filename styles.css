@@ -1,0 +1,85 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Actor&display=swap');
+
+/* General */
+body {
+  background-color: #FDFFDF;
+  font-family: 'Actor', sans-serif;
+  font-size: 16px;
+  color: #1E1E1E;
+  max-width: 428px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+  background-color: #6A23C6;
+}
+
+/* Hero */
+.nombre {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 32px;
+  color: #6A23C6;
+  text-align: center;
+}
+
+.profesion {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 24px;
+  color: #6A23C6;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+/* Habilidades */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 4px;
+}
+
+/* Contacto */
+address a {
+  color: #BF1818;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
